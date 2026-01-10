@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: toffee3177/hello-golang
+          images: toffee3177/final-12th-sprint
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
