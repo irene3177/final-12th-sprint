@@ -4,35 +4,35 @@ A demonstration of automated CI/CD pipeline for Go applications using GitHub Act
 
 
 ## Features
-Automated Testing - Tests run on every push to the repository
+- **Automated Testing** - Tests run on every push to the repository
 
-Docker Builds - Automatic Docker image builds on tag creation
+- **Docker Builds** - Automatic Docker image builds on tag creation
 
-CI/CD Pipeline - Full automation of testing and deployment
+- **CI/CD Pipeline** - Full automation of testing and deployment
 
 ## Technologies
 
-Go 1.25+ - Programming language
+- **Go 1.25+** - Programming language
 
-Docker - Application containerization
+- **Docker** - Application containerization
 
-GitHub Actions - CI/CD pipeline
+- **GitHub Actions** - CI/CD pipeline
 
-Docker Hub - Docker image registry
+- **Docker Hub** - Docker image registry
 
 ## CI/CD Pipeline
 
-Test Job - Runs on every push:
+1. **Test Job** - Runs on every push:
 
-Code validation
+  - Code validation
 
-Unit tests (go test ./...)
+  - Unit tests (go test ./...)
 
-Deploy Job - Runs only on tags:
+2. **Deploy Job** - Runs only on tags:
 
-Builds Docker image
+  - Builds Docker image
 
-Pushes to Docker Hub
+  - Pushes to Docker Hub
 
 ### Required Secrets:
 
